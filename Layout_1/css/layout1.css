@@ -1,0 +1,12 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.price-header {
+    max-width: 700px;
+}
+
+.container {
+    max-width: 960px;
+}

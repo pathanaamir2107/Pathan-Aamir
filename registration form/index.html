@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>registration form</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url(https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            backdrop-filter: blur(5px);
+            font-size: 12px;
+        }
+        
+        .registraion_form {
+            position: relative;
+            height: 100%
+        }
+        
+        label {
+            font-size: 14px;
+            font-weight: 500;
+            display: inline-block;
+            margin-bottom: 8px;
+        }
+        
+        @media screen and (max-width:576px) {
+            h1 {
+                font-size: 25px !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-light bg-white ">
+            <div class="container-fluid ">
+                <a href="#" class="navbar-brand pl-lg-4">
+                    <img src="imgs/logo1.png" alt="logo" width="145px" height="68px">
+                </a>
+                <form action="#">
+                    <a type="submit" class="btn btn-outline-primary   mr-lg-4 ">Log In</a>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <section class="registraion_form ">
+        <div class="container-fluid">
+            <div class="row justify-content-center mt-md-5 px-md-3">
+                <h1 class="text-center mt-md-5 py-4" style="color:#101d67"> Grow Your Business By Listing Your Business FREE on <br> Barodianmarket.com</h1>
+                <div class="col-lg-6 col-12 col-sm-8 bg-white overflow-hidden py-5 mb-4 shadow-lg px-0 px-sm-3" style="border-radius: 10px;">
+                    <form action="#">
+                        <div class="col-12 px-1 px-sm-3">
+                            <div class="row">
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Business_name">Business Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="far fa-building"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter your Business Name">
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Business_name">Owner's Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter Owner's Name">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Contact_Number">Contact Number</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text">+91</span>
+                                        <input type="text" class="form-control" placeholder="Enter your Contact Number">
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Email_ID">Email ID</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter your Email ID">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 px-3 mb-4">
+                                    <label for="Website">Website</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-globe" aria-hidden="true"></i></span>
+                                        <input type="text" class="form-control" placeholder="Enter your Website(www.xyz.com)">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Address">Address</label>
+                                    <div class="input-group">
+                                        <!-- <span class="input-group-text"><i class="fa fa-map" aria-hidden="true"></i></span> -->
+                                        <textarea name="adress" id="" cols="80" rows="2" class="form-control" placeholder="Address"></textarea>
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 px-3 mb-4">
+                                    <label for="Business_name">Location:</label>
+                                    <div class="input-group">
+                                        <!-- <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span> -->
+                                        <select class="form-select" id="inputGroupSelect01">
+                                            <option selected>Select Location</option>
+                                            <option value="1">Sayajiganj , Vadodara , Gujarat</option>
+                                            <option value="2">Ajwa-road , Vadodara , Gujarat</option>
+                                            <option value="3">Waghodia-road , Vadodara , Gujarat</option>
+                                          </select>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row  ">
+                                <label for="Business Category">Business Category:</label>
+                                <div class="col-md-4  col-4 pr-0 ">
+
+                                    <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
+                                    <label class="btn btn-outline-primary border rounded mr-xl-2 pr-xl-5  w-100 text-left " for="btn-check"><img src="imgs/salon.svg" alt="salon" width="20px" height="20px" class="mr-2"> Salon</label>
+                                </div>
+                                <div class="col-md-4  col-4 gx-1 ">
+                                    <input type="checkbox" class="btn-check" id="btn-check_1" autocomplete="off">
+                                    <label class="btn btn-outline-primary border rounded mr-xl-2 pr-xl-5  w-100 text-left" for="btn-check_1"><img src="imgs/food.svg" alt="salon" width="20px" height="20px" class="mr-2"> Food</label>
+                                </div>
+                                <div class="col-md-4  col-4 pl-0 ">
+                                    <input type="checkbox" class="btn-check" id="btn-check_2" autocomplete="off">
+                                    <label class="btn btn-outline-primary border rounded mr-xl-2 pr-xl-5  w-100 text-left" for="btn-check_2"><img src="imgs/facialmask.png" alt="salon" width="20px" height="20px" class="mr-2"> Spa</label>
+                                </div>
+                                <div class="col-md-4  col-4 pr-0">
+                                    <input type="checkbox" class="btn-check" id="btn-check_3" autocomplete="off">
+                                    <label class="btn btn-outline-primary border rounded mr-xl-2 pr-xl-5  w-100 text-left" for="btn-check_3"><img src="imgs/nailart.svg" alt="salon" width="20px" height="20px" class="mr-2">Nail-Art</label>
+                                </div>
+                            </div>
+                            <div class="col-12 form-check mt-2">
+                                <input class="form-check-input" type="checkbox" value="" id="Default">
+                                <label class="form-check-label " for="Default">
+                                  By creating this account I agree to barodianmarket.com business plateform's <a href="https://www.business-standard.com/terms-conditions" target="_blank" style="text-decoration: none;">Tearms and Conditions</a>
+                                </label>
+                            </div>
+
+                            <div class="row py-3">
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn btn-lg btn-success">Create My Account</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

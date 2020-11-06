@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header */
+
+.header {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+
+.social {
+    float: left;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 11px 50px;
+}
+
+.social ul li {
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.social a {
+    color: white;
+}
+
+.contact {
+    float: right;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 11px 50px;
+}
+
+.contact ul li {
+    padding: 0 5px;
+    display: inline-block;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.contact i {
+    padding: 0 5px;
+    font-size: 17px;
+}
+
+.logo {
+    padding: 20px 50px;
+    float: left;
+    display: inline-block;
+}
+
+.menu {
+    float: left;
+    padding: 36px 18px;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #7400ff;
+    padding: 0 13px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: violet;
+}
+
+.srch {
+    padding: 31px 50px;
+    float: left;
+}
+
+input[type=search] {
+    height: 22px;
+    border-radius: 10px;
+    border: none;
+    border: 2px solid #7400ff;
+    padding: 12px 8px;
+    font-family: sans-serif;
+    outline: none;
+}
+
+.srch i {
+    padding: 0px 3px;
+    color: #7400ff;
+}
+
+
+/* services */
+
+.main {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    background-image: url(../salon/serviceBan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.overlayblack {
+    background: #00000061;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+div h1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 70px;
+    color: white;
+    text-transform: capitalize;
+    margin: 0px 0px 20px 0px;
+}
+
+div .submain {
+    margin: 0 136px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    padding: 180px 0 120px;
+}
+
+.submain p {
+    color: #ffffffb8;
+    padding: 0 210px;
+}
+
+.services {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.subsrvs {
+    width: 90%;
+    margin: auto;
+}
+
+.s1 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.s2 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.s3 {
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+
+.simg1 img,
+.simg2 img,
+.simg3 img {
+    width: 100%;
+}
+
+.subs1,
+.subs2,
+.subs3 {
+    padding-top: 35px;
+}
+
+.subs1 a,
+.subs2 a,
+.subs3 a {
+    text-decoration: none;
+    font-size: 26px;
+    font-family: sans-serif;
+    color: black;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.subs1 p,
+.subs2 p,
+.subs3 p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: gray;
+    line-height: 1.5;
+    padding-bottom: 15px;
+}
+
+.subbtn {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: blueviolet;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 15px 36px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.ab1 {
+    position: relative;
+    overflow: auto;
+    margin-bottom: 50px;
+}
+
+.ov {
+    width: 80%;
+    margin: auto;
+}
+
+.ovimg {
+    float: left;
+    width: 40%;
+}
+
+.ovrvsn {
+    width: 42%;
+    float: left;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.ovrvsn h2 {
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+.ovrvsn p {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: gray;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.ovbtn {
+    font-family: sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: white;
+    background: #7400ff;
+    padding: 15px 36px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.ab2 {
+    position: relative;
+    overflow: auto;
+    padding: 125px 0;
+    background-color: #7400ff0d;
+}
+
+.sbp {
+    width: 90%;
+    margin: auto;
+}
+
+.sbpimg {
+    float: left;
+    width: 50%;
+}
+
+.sbpt {
+    width: 48%;
+    float: left;
+    margin: 10px 0 25px 20px;
+}
+
+.lipstick {
+    width: 22%;
+    float: left;
+    line-height: 1.8;
+    margin-left: 20px;
+}
+
+.nail {
+    width: 22%;
+    float: left;
+    line-height: 1.8;
+}
+
+
+/* end */
+
+
+/* footer */
+
+.footer {
+    position: relative;
+    overflow: auto;
+    background-color: #000000d6;
+}
+
+.cntus {
+    width: 40%;
+    text-align: center;
+    margin: 25px 0px 40px 0px;
+    float: left;
+}
+
+.cntus p {
+    font-family: sans-serif;
+    font-size: 32px;
+    margin: 0px 0px 20px 8px;
+    color: white;
+}
+
+.cntus ul {
+    list-style-type: none;
+}
+
+.cntus ul li {
+    display: inline-block;
+    display: inline-block;
+    font-size: 30px;
+    padding: 0 5px;
+}
+
+.fb {
+    color: #3B5999;
+}
+
+.tw {
+    color: #007bff;
+}
+
+.pnt {
+    color: #BD081C;
+}
+
+.insta {
+    color: #E4405F;
+}
+
+.contactus {
+    width: 40%;
+    text-align: center;
+    margin: 25px 0px 40px 0px;
+    float: left;
+    padding-left: 122px;
+}
+
+.contactus p {
+    font-family: sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.contactus span {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: white;
+    display: inline-block;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}

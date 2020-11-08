@@ -45,3 +45,12 @@ html {
 .form-control {
     border: 2px solid#404346;
 }
+
+.scale_hover {
+    transition: .6s;
+}
+
+.scale_hover:hover {
+    transform: scale(1.5);
+    transition: 1s;
+}
